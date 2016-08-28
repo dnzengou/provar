@@ -7,9 +7,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Multisensorial experience for deeper learning, product loyalty and entertainement">
 
-    <title>Business Casual - Start Bootstrap Theme</title>
+    <title>ProvAR</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.ico">
+    <meta name="keywords" content="decentralised app, iPhone, Android, blackberry, jQuerymobile, kindle, ipad, blockchain, Google, community, energy, renewable">
+    <meta name="robots" content="all">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="img/png" href="img/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="img/png" href="img/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="img/manifest.json">
+    <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -32,8 +44,17 @@
 
 <body>
 
-    <div class="brand">Business Casual</div>
-    <div class="address-bar">3481 Melrose Place | Beverly Hills, CA 90210 | 123.456.7890</div>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7&appId=137873573324007";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+    <div class="brand">ProvAR</div>
+    <div class="address-bar">9 Devonshire Square | London EC2M 4YD, UK | (44) 12-34567890</div>
 
     <!-- Navigation -->
     <nav class="navbar navbar-default" role="navigation">
@@ -47,7 +68,8 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-                <a class="navbar-brand" href="index.html">Business Casual</a>
+                <!--<a class="navbar-brand" href="index.html">ProvAR</a>-->
+                <a href="http://provar.azurewebsites.net/"><img src="img/provar-logo87x32.png" alt="provar.io"></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -63,6 +85,10 @@
                     </li>
                     <li>
                         <a href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                    <!-- fb login button -->
+                    <div class="fb-login-button" data-max-rows="1" data-size="medium" data-show-faces="false" data-auto-logout-link="true"></div>
                     </li>
                 </ul>
             </div>
@@ -87,13 +113,16 @@
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner">
                             <div class="item active">
-                                <img class="img-responsive img-full" src="img/slide-1.jpg" alt="">
+                                <img class="img-responsive img-full" src="img/slide-1.png" alt="">
                             </div>
                             <div class="item">
-                                <img class="img-responsive img-full" src="img/slide-2.jpg" alt="">
+                                <img class="img-responsive img-full" src="img/slide-2.png" alt="">
                             </div>
                             <div class="item">
-                                <img class="img-responsive img-full" src="img/slide-3.jpg" alt="">
+                                <img class="img-responsive img-full" src="img/slide-3.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="img/slide-4.png" alt="">
                             </div>
                         </div>
 
@@ -108,11 +137,11 @@
                     <h2 class="brand-before">
                         <small>Welcome to</small>
                     </h2>
-                    <h1 class="brand-name">Business Casual</h1>
+                    <h1 class="brand-name">ProvAR</h1>
                     <hr class="tagline-divider">
                     <h2>
-                        <small>By
-                            <strong>Start Bootstrap</strong>
+                        <small>
+                            <strong>Provenance Augmented Reality</strong>
                         </small>
                     </h2>
                 </div>
